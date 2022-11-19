@@ -1,0 +1,12 @@
+NUMPY - Numerical Python
+Core library for scientific and Numerical computing in python
+
+1. Supports powerful N-dimensional array objects 
+2. Built-in tools for performing intensive mathematical as well as scientific calculations.
+
+dimensions in numpy is called axes
+
+Why should we use Numpy array when we have python list?
+1. Fast
+2. Convenient
+3. Less Memory
