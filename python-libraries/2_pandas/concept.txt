@@ -1,0 +1,7 @@
+Pandas is a tool for data processing which helps in data snalysis.
+It provides functions and methods to efficiently manipulate large datasets.
+
+Data Structures in Pandas:
+1. Series (1-D dimensional array)
+2. DataFrame (2-D dimensional array)
+
