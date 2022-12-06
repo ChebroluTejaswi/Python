@@ -1,0 +1,46 @@
+Deep Learning Frameworks
+1. Keras
+2. TensorFlow
+3. PyTorch
+4. Cafee
+5. Theano
+------------------------------------------------------------------------------
+
+Tensorflow is based on Python Programming language and performs numerical computations using data flow graphs to build models
+
+Features:
+1. Works efficiently with multidimensional arrays
+2. Provides scalability of computation across machines and large datasets
+3. Supports fast debugging and model building
+4. Has large community and provides TensorBoard to visualize the model.
+
+Applications:
+1. Face detection
+2. Language translation
+3. Fraud detection
+4. Video detection
+
+
+Tensor is a vector or a matrix of n-dimensions that represents all types of data. Defined by a unit of dimensionality called as rank.
+Scalar: 2                   rank:0
+Vector: [1 2]               rank:1
+Matrix: | 1 2 |             rank:2
+        | 3 4 |
+Tensor: | [1  2]  [3  4] |  rank:3
+        | [5  6]  [7  8] |  eg: picture (x, y coordinates. Each having pixels.)
+
+Tensorflow performs computations with the help of dataflow graphs.
+It has nodes that represent the operations in your model.
+Keras is a high level API in Tensorflow 2.0 (tf.keras)
+Keras provides a number of model building APIs such as sequential, Functional and Subclassing, so we can choose the right level of abstraction for our project.
+
+--------------------------------------------------------------------------------------
+
+Tensorflow Toolkits Hierarchy
+
+Estimators      tf.keras            (high-level,object-oriented API)
+tf.layers   tf.losses   tf.metrics  (Resuable libraries for model building)
+low-level tf API                    (Extensive control)
+CPU     GPU     TPU                 (tf code can run on multiple platforms)
+
+------------------------------------------------------------------------------------
