@@ -1,0 +1,11 @@
+Simple and efficient tool for data mining and data analysis
+Built on Numpy, Scipy and Matplotlib.
+
+
+What we can achieve using scikit-learn?
+1. Classification 
+2. Regression
+3. Clustering
+4. Model Selection
+5. Dimensionality Reduction
+5. Pre-Processing
